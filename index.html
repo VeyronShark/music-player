@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Favourite Songs</title>
+</head>
+<body>
+  <main>
+    <h1>My Favourite Songs</h1>
+    <h2>By Varun Satapathy</h2>
+
+    <div class="songs-container"></div>
+  </main>
+
+  <footer>
+    <div class="current-song-name">Song Name</div>
+    <div class="current-song-author">Song Author</div>
+    <input type="range" class="progress-bar" min="0" value="50" step="1">
+    <div class="media-icons">
+      <div class="back-icon"><img id="previous" src="./images/previous-track.svg"></div>
+      <div class="master-icon"><img id="play-pause" src="./images/master-play.svg"></div>
+      <div class="next-icon"><img id="next" src="./images/next-track.svg"></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
