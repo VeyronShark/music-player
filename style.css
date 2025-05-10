@@ -98,7 +98,7 @@ h2{
 footer {
   color: white;
   height: 20vh;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(0.2rem);
   border-top: 1px solid white;
   display: flex;
