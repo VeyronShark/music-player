@@ -134,6 +134,7 @@ footer {
   cursor: pointer;
   appearance: none;
   background-color: #333;
+  border-radius: 1rem;
   margin: 1rem;
 }
 .progress-bar:focus{
