@@ -15,7 +15,7 @@ main {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 1rem;
 }
 
@@ -152,7 +152,7 @@ footer {
   margin: -0.5rem 0rem;
 }
 
-@media (min-width: 450px){
+/* @media (min-width: 800px){
   h1 {
     font-size: 4rem;
   }
@@ -166,4 +166,4 @@ footer {
   .media-icons {
     gap: 1.5rem;
   }
-}
+} */
