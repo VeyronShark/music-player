@@ -132,6 +132,7 @@ function playSong(songObject) {
     }
   });
 }
+ updateProgressBarStyle();
 
 //setting progress bar max
 currentPlaying.addEventListener('loadedmetadata', () => {
@@ -161,6 +162,8 @@ masterPlay.addEventListener('click', () => {
       currentPlaying.pause();
       masterPlay.src = "./images/master-play.svg";
     }
+  } else {
+    playSong(songs[0]);
   }
 })
 
