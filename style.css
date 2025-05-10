@@ -15,6 +15,7 @@ body {
 
 main {
   height: 80vh;
+  /* padding-bottom: 20vh; */
   overflow-y: scroll;
   background-color: grey;
   background-image: url('images/bg.jpg');
@@ -24,7 +25,7 @@ main {
 
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
+  justify-content: flex-end;
   padding: 1rem;
 }
 
@@ -33,7 +34,6 @@ h1 {
   font-weight: normal;
   padding: 1rem;
   color: white;
-  margin-top: 5rem;
 }
 h2{
   font-weight: normal;
